@@ -1,0 +1,35 @@
+System Requirements:
+
+Operating System: Windows or Linux
+Python 3.5 or higher
+OpenCV
+dlib
+scipy
+imutils
+Download the source code for the Automated Driver Drowsiness Detector project from the project repository.
+
+Extract the downloaded zip file to a location of your choice.
+
+Open the command prompt and navigate to the extracted folder.
+
+Install the required packages by running the following command:
+pip install opencv-python dlib scipy imutils
+
+Download the pre-trained models from the project repository and extract them to the extracted folder.
+
+Connect a webcam or a camera to your computer.
+
+Run the project by executing the following command:
+
+python updated_drowsiness.py --shape-predictor shape_predictor_68_face_landmarks.dat --alarm alarm.wav
+
+This will start the program and display the webcam feed on your screen.
+
+The program will analyze the driver's facial landmarks to detect drowsiness. If the program detects that the driver is getting drowsy, an alarm will sound to alert the driver.
+
+Press the 'q' key to quit the program.
+
+
+
+Regards,
+Group-49
